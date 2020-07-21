@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- $Id: default.xml 51 2010-11-22 01:33:21Z chdemko $ -->
+<metadata>
+    <layout title="COM_TRAVELS_TRAVELS_VIEW_DEFAULT_TITLE">
+        <message>COM_TRAVELS_TRAVELS_VIEW_DEFAULT_DESC</message>
+    </layout>
+    <fields name="request">
+        <fieldset name="request">
+            <field name="catid"
+                   type="category"
+                   extension="com_travels"
+                   label="JCATEGORY"
+                   class="inputbox"
+                   addfieldpath="/administrator/component/com_categories/models/fields"
+            >
+                <option value="">Selecione uma categoria</option>
+            </field>
+        </fieldset>
+    </fields>
+</metadata>
+

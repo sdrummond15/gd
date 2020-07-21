@@ -1,0 +1,2 @@
+[30-Jun-2020 20:31:03 America/Fortaleza] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home1/sdrum039/public_html/gd/administrator/components/com_travels/models/travel.php on line 183
+[30-Jun-2020 21:11:03 America/Fortaleza] PHP Warning:  number_format() expects parameter 1 to be double, string given in /home1/sdrum039/public_html/gd/administrator/components/com_travels/models/travel.php on line 183

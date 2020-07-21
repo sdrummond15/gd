@@ -1,0 +1,191 @@
+.moduletable-novidades h3 {
+    font-weight: 200;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #58626e;
+}
+
+#modtravel_packages {
+    width: 100%;
+    display: table;
+    position: relative;
+}
+
+.travel_packages {
+    width: 100%;
+    background-size: auto 100% !important;
+    background-position: center !important;
+    margin: 0;
+    position: relative;
+}
+
+.travel_packages .travel_feature {
+    padding: 15px;
+    background-color: #FFF;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3)
+}
+
+.travel_packages .travel_feature.square1 {
+    transform: rotate(5deg);
+}
+
+.travel_packages .travel_feature.square2 {
+    transform: rotate(-10deg);
+}
+
+.travel_packages .travel_feature.square3 {
+    transform: rotate(-2deg);
+}
+
+.travel_packages .travel_feature.square4 {
+    transform: rotate(6deg);
+}
+
+.travel_packages .travel_feature a {
+    color: #58626e;
+    transition: all 300ms;
+}
+
+.travel_packages .travel_feature a:hover {
+    font-weight: 500;
+    color: #000;
+}
+
+.travel_packages .travel_feature .travel_img {
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.travel_packages .travel_feature .travel_img span {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-size: cover;
+    background-position: center center;
+    transition: all 300ms;
+}
+
+.travel_packages .travel_feature .travel_img span:hover {
+    transform: scale(1.05);
+}
+
+.travel_packages .travel_feature .travel_desc {
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+}
+
+.travel_packages .travel_feature .travel_desc h3 {
+    width: 55%;
+    float: left;
+    text-align: center;
+    font-family: 'Ink Free';
+}
+
+.travel_packages .travel_feature .travel_desc h4 {
+    width: calc(45% - 10px);
+    margin-left: 10px;
+    float: right;
+    text-align: right;
+}
+.travel_packages .travel_feature .travel_desc h4 a{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.travel_packages .travel_feature .travel_desc h4 a span{
+    font-size: 12px;
+}
+
+.travel_packages .travel_feature .travel_desc h4 a small{
+    display: block;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+#modtravel_packages .slider-wrap {
+    position: relative;
+    margin: auto;
+    width: 1170px;
+}
+
+#modtravel_packages .slider {
+    position: relative;
+    margin: auto;
+    padding: 0;
+}
+
+#modtravel_packages ul {
+    margin: 0;
+    padding: 0;
+}
+
+#modtravel_packages ul li {
+    list-style: none;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#modtravel_packages ul li > div {
+    display: inline-table;
+    width: calc(100% - 30px);
+    position: relative;
+}
+
+#modtravel_packages ul li > div:hover {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+#modtravel_packages .slider-arrow {
+    position: absolute;
+    top: 45%;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+#modtravel_packages .slider-arrow:hover {
+    opacity: 1;
+}
+
+#modtravel_packages .slider-arrow {
+    text-shadow: 0px 0px 15px #000000;
+    transform: scale(0.2, 1);
+    font-size: 100px;
+    font-weight: 200;
+    display: table;
+}
+
+#modtravel_packages .sa-left {
+    left: 0 !important;
+}
+
+#modtravel_packages .sa-right {
+    right: 0 !important;
+}
+
+@media screen and (max-width: 1200px) {
+
+    #modtravel_packages .slider-wrap {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #modtravel_packages .slider-arrow {
+        opacity: 1 !important;
+    }
+
+    #modtravel_packages .slider-arrow:hover {
+        opacity: 1;
+    }
+}

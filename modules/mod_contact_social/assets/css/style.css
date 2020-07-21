@@ -1,0 +1,89 @@
+#contact-social {
+    float: left;
+    margin-top: 15px;
+}
+
+ul.contact-social {
+    list-style: none;
+    display: table;
+    padding: 0;
+    margin: 0 18px 0 32px;
+}
+
+ul.contact-social li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+ul.contact-social li:last-child {
+    border: 0;
+}
+
+ul.contact-social li a {
+    color: #163F95;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+ul.contact-social li a:hover {
+    color: #001e5c;
+}
+
+ul.contact-social li a b {
+    font-weight: normal;
+}
+
+ul.contact-social li a i {
+    font-size: 20px;
+}
+
+ul.contact-social li a span {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+ul.contact-social li a.phone {
+    font-weight: 600;
+    font-size: 18px;
+}
+ul.contact-social li a.phone i {
+    transform: rotate(90deg);
+    font-size: 16px;
+}
+
+.fa-facebook-f{
+    padding: 0 6px;
+}
+
+@media screen and (max-width: 768px) {
+    ul.contact-social li a b {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    ul.contact-social li a i {
+        font-size: 24px;
+        padding: 4px 0;
+        vertical-align: middle;
+    }
+
+    ul.contact-social li a span {
+        margin: 0;
+    }
+
+    ul.contact-social li {
+        padding: 0 3px;
+        border: 0;
+    }
+
+    ul.contact-social {
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    ul.contact-social li a i {
+        font-size: 20px;
+    }
+}

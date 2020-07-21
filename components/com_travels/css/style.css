@@ -1,0 +1,669 @@
+.title-travel h1 {
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+}
+
+#first-travel {
+    width: calc(100% - 120px);
+    padding: 60px 60px 0 60px;
+    display: table;
+    background-color: #FFF;
+}
+
+#first-travel .images-package {
+    width: 60%;
+    display: table;
+    float: left;
+}
+
+#first-travel .box-package {
+    width: calc(40% - 60px);
+    margin: 0 0 40px 20px;
+    padding: 20px;
+    display: table;
+    float: right;
+    background-color: #70EED1;
+}
+
+#first-travel .box-package .desc-travel {
+    padding: 20px;
+    background-color: #FFF;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#first-travel .box-package .desc-travel .details-travel {
+    width: 100%;
+    display: table;
+}
+
+#first-travel .box-package .desc-travel .details-travel .desc-detail {
+    width: 100%;
+    display: table;
+}
+
+#first-travel .box-package .desc-travel .details-travel .desc-detail h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+#first-travel .box-package .desc-travel .details-travel .desc-detail > div.advantage-detail {
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+#first-travel .box-package .desc-travel .details-travel .desc-detail > div {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#first-travel .box-package .desc-travel .details-travel .destiny-detail {
+    width: 50%;
+    display: table;
+    float: left;
+}
+
+#first-travel .box-package .desc-travel .details-travel .destiny-detail h2 {
+    text-align: center;
+    transform: rotate(-10deg);
+    font-family: 'Ink Free';
+    font-size: 24px;
+    margin-right: -10px;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail {
+    width: 100%;
+    display: table;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail {
+    width: 100%;
+    display: table;
+    margin: 20px 0 10px 0;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .advantage-detail {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.in-out-box {
+    display: table;
+    width: 100%;
+    border-bottom: 2px solid #000;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.in-out-box div {
+    float: left;
+    width: 50%;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.in-detail h3,
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.out-detail h3 {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.in-detail h3 span,
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.out-detail h3 span {
+    width: 30px;
+    height: 30px;
+    background-color: #F99C49;
+    text-align: center;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 16px;
+    color: #FFF;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.in-detail h3 span i {
+    transform: rotate(315deg);
+    margin-left: 3px;
+    margin-top: 6px;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail div.out-detail h3 span i {
+    transform: rotate(135deg);
+    margin-left: -2px;
+    margin-top: 8px;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .in-out-detail p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+#first-travel .box-package .desc-travel .details-travel .time-detail .advantage-detail p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+#first-travel .box-package .desc-travel .price-detail {
+    width: calc(50% - 10px);
+    margin-left: 10px;
+    display: table;
+    float: right;
+}
+
+#first-travel .box-package .desc-travel .price-detail h4 {
+    text-align: center;
+    transform: rotate(-10deg);
+    margin-top: 10px;
+}
+
+#first-travel .box-package .desc-travel .price-detail h4 a {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2F3133;
+}
+
+#first-travel .box-package .desc-travel .price-detail h4 a span {
+    font-size: 18px;
+}
+
+#first-travel .box-package .desc-travel .price-detail h4 a small {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0;
+}
+
+#first-travel .box-package .desc-travel .btn-more {
+    display: table;
+    margin: auto;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 0;
+    color: #000;
+    padding: 5px 0px 5px 30px;
+    border-bottom: 2px solid #000;
+    float: right;
+}
+
+#first-travel .box-package .desc-travel .price-detail small {
+    text-align: center;
+    margin: 0 auto;
+    display: table;
+}
+
+#first-travel .thumb-package {
+    width: 100%;
+    display: table;
+}
+
+#travels {
+    width: calc(100% - 120px);
+    display: table;
+    padding: 40px 60px 60px 60px;
+    background-color: #70EED1;
+}
+
+#travels .travel {
+    width: calc(100% - 40px);
+    padding: 20px;
+    margin: 0 0 20px 0;
+    border-radius: 10px;
+    background-color: #FFF;
+    display: table;
+}
+
+#travels .travel .img-travel {
+    width: 25%;
+    display: table;
+    overflow: hidden;
+    border-bottom: 0;
+    position: relative;
+    float: left;
+}
+
+#travels .travel .img-travel a {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#travels .travel .img-travel a span {
+    width: 100%;
+    height: 100%;
+    display: table;
+    background-size: cover;
+    background-position: center;
+}
+
+#travels .travel .desc-travel {
+    display: table;
+    float: right;
+    width: calc(75% - 40px);
+    margin-left: 40px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#travels .travel .desc-travel .details-travel {
+    width: calc(100% - 200px);
+    display: table;
+    float: left;
+}
+
+#travels .travel .desc-travel .details-travel .desc-detail {
+    width: calc(100% - 200px);
+    display: table;
+    float: left;
+}
+
+#travels .travel .desc-travel .details-travel .desc-detail h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+}
+
+#travels .travel .desc-travel .details-travel .desc-detail > div {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#travels .travel .desc-travel .details-travel .destiny-detail {
+    width: 200px;
+    display: table;
+    float: left;
+}
+
+#travels .travel .desc-travel .details-travel .destiny-detail h2 {
+    display: table;
+    text-align: center;
+    float: right;
+    transform: rotate(-10deg);
+    font-family: 'Ink Free';
+    font-size: 24px;
+    margin-top: 20px;
+    margin-right: -10px;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail {
+    width: 100%;
+    display: table;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail {
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .advantage-detail {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.in-out-box {
+    display: inline-block;
+    border-bottom: 2px solid #000;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.in-out-box div {
+    display: inline-block;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.in-detail {
+    margin-right: 20px;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.in-detail h3,
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.out-detail h3 {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.in-detail h3 span,
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.out-detail h3 span {
+    width: 36px;
+    height: 36px;
+    background-color: #F99C49;
+    text-align: center;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.in-detail h3 span i {
+    transform: rotate(315deg);
+    margin-left: 4px;
+    margin-top: 7px;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail div.out-detail h3 span i {
+    transform: rotate(135deg);
+    margin-left: -5px;
+    margin-top: 9px;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .in-out-detail p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 10px 0;
+}
+
+#travels .travel .desc-travel .details-travel .time-detail .advantage-detail p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+#travels .travel .desc-travel .price-detail {
+    width: 170px;
+    margin-left: 30px;
+    display: table;
+}
+
+#travels .travel .desc-travel .price-detail h4 {
+    text-align: center;
+    transform: rotate(-10deg);
+    margin-top: 30px;
+}
+
+#travels .travel .desc-travel .price-detail h4 a {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    color: #2F3133;
+}
+
+#travels .travel .desc-travel .price-detail h4 a span {
+    font-size: 18px;
+}
+
+#travels .travel .desc-travel .price-detail h4 a small {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
+    margin: 0;
+}
+
+#travels .travel .desc-travel .price-detail p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#travels .travel .desc-travel .price-detail .btn-reserve {
+    display: table;
+    background-color: #F99C49;
+    margin: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px 8px 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#travels .travel .desc-travel .price-detail small {
+    text-align: center;
+    margin: 15px auto 0 auto;
+    display: table;
+}
+
+#travels .pagination ul {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#travels .pagination ul li,
+#travels .pagination ul li span,
+#travels .pagination ul li a {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+    padding: 0 3px;
+    margin: 0 1px;
+    vertical-align: middle;
+    transform: scale(0.8, 1);
+}
+
+#travels .pagination ul li.start span,
+#travels .pagination ul li.start a,
+#travels .pagination ul li.end span,
+#travels .pagination ul li.end a {
+    transform: scale(0.4, 1);
+    font-size: 60px;
+    font-weight: 500;
+    display: table;
+    color: #fff;
+    text-align: center;
+}
+
+/*Detalhe*/
+#travel {
+    padding: 40px 20px;
+    background-color: #FFF;
+    display: table;
+    width: calc(100% - 40px);
+}
+
+#travel .images-travel {
+    width: calc(50% - 30px);
+    display: table;
+    float: left;
+    margin-right: 30px;
+}
+
+#lightgallery {
+    width: 100%;
+    display: table;
+    padding: 0;
+    margin: 0;
+}
+
+#lightgallery li {
+    width: calc(33.33% - 4px);
+    margin: 2px;
+    display: table;
+    float: left;
+}
+
+#lightgallery li a,
+#lightgallery li a span {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+#lightgallery li a span {
+    background-size: cover;
+    background-position: center;
+}
+
+#lightgallery li a span img {
+    display: none;
+}
+
+#travel #desc-travel {
+    display: table;
+    float: right;
+    width: 50%;
+    position: relative;
+}
+
+#travel #desc-travel .details-travel .desc-detail h1 {
+    font-weight: bold;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+}
+
+#travel #desc-travel .details-travel .desc-detail > div {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#travel #desc-travel .details-travel .all-details {
+    display: table;
+    margin: auto;
+}
+
+#travel #desc-travel .details-travel .destiny-detail {
+    display: table;
+    float: left;
+}
+
+#travel #desc-travel .details-travel .destiny-detail h2 {
+    text-align: center;
+    transform: rotate(-10deg);
+    font-family: 'Ink Free';
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#travel #desc-travel .details-travel .time-detail {
+    width: 100%;
+    display: table;
+    margin-top: 30px;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail div.in-out-box {
+    display: table;
+    width: 100%;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail div.in-out-box h3 {
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail div.in-out-box h3 span {
+    width: 36px;
+    height: 36px;
+    background-color: #F99C49;
+    text-align: center;
+    margin-right: 5px;
+    display: inline-block;
+    font-size: 20px;
+    color: #FFF;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail div.in-out-box h3 span.in-detail i {
+    transform: rotate(315deg);
+    margin-left: 4px;
+    margin-top: 7px;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail div.in-out-box h3 span.out-detail {
+    margin-left: 30px;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail div.in-out-box h3 span.out-detail i {
+    transform: rotate(135deg);
+    margin-left: -5px;
+    margin-top: 9px;
+}
+
+#travel #desc-travel .details-travel .time-detail .in-out-detail p {
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#travel #desc-travel .details-travel .time-detail .advantage-detail p {
+    font-family: 'Open Sans';
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+#travel #desc-travel .price-detail {
+    padding-left: 30px;
+    display: table;
+}
+
+#travel #desc-travel .price-detail h4 {
+    text-align: center;
+    transform: rotate(-10deg);
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #2F3133;
+}
+
+#travel #desc-travel .price-detail h4 span {
+    font-size: 18px;
+}
+
+#travel #desc-travel .price-detail h4 small {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 14px;
+    margin: 5px 0 0 0;
+}
+
+#travel #desc-travel .price-detail p {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+#travel #desc-travel .btn-reserve {
+    display: table;
+    background-color: #F99C49;
+    margin: auto;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px 8px 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#travel #desc-travel small {
+    text-align: center;
+    margin: 15px auto 0 auto;
+    display: table;
+}

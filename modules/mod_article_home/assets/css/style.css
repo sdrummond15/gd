@@ -1,0 +1,155 @@
+#article-home {
+    width: 100%;
+    display: table;
+    padding: 20px 0;
+    position: relative;
+}
+
+.all-destination {
+    width: 55%;
+    display: table;
+    float: right;
+    position: relative;
+}
+
+.destination {
+    width: 65%;
+    margin-left: -15%;
+    float: left;
+    position: relative;
+}
+
+.destination.top {
+    clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
+}
+
+.destination.bottom {
+    clip-path: polygon(30% 0, 100% 0, 70% 100%, 0 100%);
+}
+
+.effect-destination {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.effect {
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%) contrast(300%) brightness(80%);
+    background-size: cover;
+    background-position: right;
+}
+
+.destination.top .effect,
+.destination.top .effect-overlay {
+    clip-path: polygon(58% 0, 70% 0, 100% 100%, 89% 100%);
+}
+
+.destination.bottom .effect,
+.destination.bottom .effect-overlay {
+    clip-path: polygon(88% 0, 100% 0%, 70% 100%, 59% 100%);
+}
+
+.effect-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(9, 53, 130, 0.4);
+    position: absolute;
+    top: 0;
+}
+
+.img-destination {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center right;
+}
+
+.airplane {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(calc(-50% - 12px), calc(-50% + 2px));
+    z-index: 1;
+}
+
+.airplane img {
+    height: 70px;
+}
+
+.detail-risk {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.detail-risk img {
+    width: 60%;
+    float: right;
+    margin: 0 15px 8px 0
+}
+
+.description {
+    width: 45%;
+    float: left;
+    position: relative;
+    display: table;
+}
+
+.linha{
+    width: 1px;
+    background-color: #FFF;
+    height: 50%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+.text-description {
+    padding: 0 40px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.the-text{
+    font-family: 'Raleway';
+    margin-right: 40px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 200;
+}
+
+#article-home .btn-destiny {
+    background: transparent;
+    float: right;
+    border-top: 1px solid #FFF;
+    border-radius: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 15px;
+    font-weight: 600;
+}
+
+.bagage{
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+}
+
+.linha-horiz{
+    height: 3px;
+    border-radius: 2px;
+    width: 70px;
+    background-color: #FFF;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ship{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
