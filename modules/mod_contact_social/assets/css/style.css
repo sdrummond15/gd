@@ -59,6 +59,14 @@ ul.contact-social li a.phone i {
     ul.contact-social li a b {
         display: none;
     }
+
+    ul.contact-social li a span{
+        display: none;
+    }
+
+    ul.contact-social {
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -72,9 +80,8 @@ ul.contact-social li a.phone i {
         margin: 0;
     }
 
-    ul.contact-social li {
-        padding: 0 3px;
-        border: 0;
+    #contact-social{
+        margin-top: 8px;
     }
 
     ul.contact-social {

@@ -34,17 +34,22 @@ if ($menu->getActive() == $menu->getDefault($lang->getTag())) {
       lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
     <jdoc:include type="head"/>
-    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/system.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/system/css/general.css" type="text/css"/>
-    <link rel="stylesheet" href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css"
-          type="text/css"/>
-    <link rel="stylesheet"
-          href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/fontawesome-all.min.css"
-          type="text/css"/>
+    <link rel="stylesheet" 
+        href="<?php echo $this->baseurl ?>/templates/system/css/system.css" 
+        type="text/css"/>
+    <link rel="stylesheet" 
+        href="<?php echo $this->baseurl ?>/templates/system/css/general.css" 
+        type="text/css"/>
+    <link rel="stylesheet" 
+        href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/template.css" 
+        type="text/css"/>
+    <link rel="stylesheet" 
+        href="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/css/fontawesome-all.min.css"
+        type="text/css"/>
     <script type="text/javascript"
-            src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/script.js"></script>
+        src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/script.js"></script>
     <script type="text/javascript"
-            rc="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/sfhover.js"></script>
+        src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template; ?>/js/sfhover.js"></script>
 </head>
 <body>
 
@@ -93,13 +98,13 @@ if ($menu->getActive() == $menu->getDefault($lang->getTag())) {
                     <div id="topmenu">
                         <jdoc:include type="modules" name="position-1"/>
                     </div>
-                </div>
-
-                <div class="gotomenu">
-                    <div id="gotomenu">
-                        <i class="fa fa-bars smallmenu" aria-hidden="true"></i>
+                    <div class="gotomenu">
+                        <div id="gotomenu">
+                            <i class="fa fa-bars smallmenu" aria-hidden="true"></i>
+                        </div>
                     </div>
                 </div>
+                
                 <div class="menuresp">
                     <jdoc:include type="modules" name="position-1"/>
                 </div>

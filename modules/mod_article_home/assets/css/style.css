@@ -153,3 +153,41 @@
     bottom: 0;
     right: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .description {
+        width: 55%;
+    }
+
+    .all-destination{
+        width: 45%;
+    }
+
+    .ship,
+    .airplane{
+        display: none;
+    }
+
+    .destination{
+        height: 350px !important;
+        width: 100%;
+        margin: 60px 0;
+    }
+
+    .destination:nth-child(1),
+    .destination:nth-child(2),
+    .destination:nth-child(3),
+    .destination:nth-child(4) {
+        display: none;
+    }
+
+    .bagage img {
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .linha {
+        margin-top: 0;
+    }
+}

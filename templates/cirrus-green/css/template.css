@@ -881,7 +881,7 @@ hr {
 
 #search #contact-social {
     float: right;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #search #contact-social ul {
@@ -1051,20 +1051,20 @@ hr {
 
 .gotomenu {
     display: none;
-    width: 100%;
     visibility: hidden;
-    margin-top: 60px;
+    background-color: #70EED1;
+    padding: 5px 8px;
+    margin-top: 5px;
 }
 
 #gotomenu {
-    float: right;
     cursor: pointer;
-    margin-right: 5px;
+    line-height: 0;
 }
 
 #gotomenu i {
     font-size: 28px;
-    color: #FFF;
+    color: #163F95;
 }
 
 .menuresp {
@@ -1072,13 +1072,14 @@ hr {
     position: absolute;
     left: 0;
     display: none;
+    z-index: 9999;
 }
 
 .menuresp ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: #FFF;
 }
 
 .menuresp ul.black {
@@ -1099,7 +1100,9 @@ hr {
 
 .menuresp li.active a,
 .menuresp li.active span {
-    color: #d8d9dd;
+    color: #001e5c;
+    background-color: #70EED1 !important;
+    border-bottom: 1px solid #163F95;
 }
 
 .menuresp li.active ul li a,
@@ -1110,9 +1113,10 @@ hr {
     padding: 5px 0 !important;
     margin: 0 !important;
     border-radius: 0 !important;
-    color: #FFF;
+    color: #163F95;
     text-transform: uppercase;
     font-size: 18px;
+    border-bottom: 1px solid #FFF;
 }
 
 .menuresp ul ul a span,
@@ -1125,7 +1129,7 @@ hr {
     width: 100%;
     display: table;
     padding: 5px 0;
-    color: #223f4c;
+    color: #163F95;
     cursor: pointer !important;
 }
 
@@ -1133,8 +1137,9 @@ hr {
 .menuresp span:hover,
 .menuresp li.active ul li a:hover {
     text-decoration: none !important;
-    color: #d8d9dd;
-    background-color: rgba(255, 255, 255, 0.1) !important;
+    color: #001e5c;
+    background-color: #DBFFF6 !important;
+    border-bottom: 1px solid #163F95;
 }
 
 /** Content/Menu Wrap **/
@@ -2611,4 +2616,90 @@ body.contentpane a:hover {
 
 .tooltip {
     display: none !important;
+}
+
+@media screen and (max-width: 1200px) {
+    #header,
+    #top-content,
+    #content-menu_wrap,
+    #footer,
+    #box_top,
+    #box_placeholder,
+    .copyrightint {
+        width: 96%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #topmenu_wrap{
+        border: 0;
+    }
+    #topmenu {
+        display: none;
+    }
+
+    .gotomenu {
+        display: table;
+        visibility: visible;
+    }
+
+    .item-page-home h2 {
+        font-size: 24px;
+    }
+
+    #box1,
+    #box2,
+    #box3 {
+        display: table;
+        width: 60%;
+        margin: 0 auto 20px auto;
+        float: none;
+    }
+
+    #box1 .moduletable-telefone-rodape #contact-social{
+        float: none;
+        margin: auto;
+    }
+
+    #box1 .moduletable-telefone-rodape #contact-social ul.contact-social{
+        margin: auto;
+    }
+
+    #box3 .moduletable-mapa p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #mod-search-searchword93 {
+        font-size: 14px;
+        width: 130px;
+    }
+
+    #search #contact-social {
+        margin: 0;
+    }
+
+    #gotomenu i {
+        font-size: 24px;
+    }
+
+    #logo {
+        padding: 15px 0;
+    }
+
+    #logo a img {
+        height: 70px;
+    }
+
+    .all-destination {
+        display: none;
+    }
+
+    .description {
+        width: 100%;
+        height: auto !important;
+        padding: 40px 0 60px 0;
+    }
 }
