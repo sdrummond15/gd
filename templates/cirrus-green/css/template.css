@@ -2580,6 +2580,11 @@ body.contentpane a:hover {
     font-size: 16px;
 }
 
+.item-page-pattern img {
+    max-width: 90%;
+    height: auto !important;
+}
+
 .blog-pattern p.readmore a {
     color: #FFF;
     font-family: 'Ink Free';
@@ -2701,5 +2706,43 @@ body.contentpane a:hover {
         width: 100%;
         height: auto !important;
         padding: 40px 0 60px 0;
+    }
+
+    .blog-pattern .reverse .img-intro,
+    .blog-pattern .img-intro { 
+        width: 350px;
+        float: none;
+        margin: 0 auto 20px auto;
+        display: table;
+    }
+
+    .contact-form fieldset,
+    .contact-form fieldset:last-child {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #search{
+        margin: 10px 0;
+    }
+
+    .searchbusca-site{
+        margin-left: 10px;
+    }
+
+    .btn-search, .btn-search:hover{
+        padding: 0;
+    }
+
+    #logo a img {
+        height: 54px;
+    }
+
+    .blog-pattern .reverse .img-intro,
+    .blog-pattern .img-intro { 
+        width: 240px;
     }
 }

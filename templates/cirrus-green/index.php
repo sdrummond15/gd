@@ -34,6 +34,7 @@ if ($menu->getActive() == $menu->getDefault($lang->getTag())) {
       lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 <head>
     <jdoc:include type="head"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <link rel="stylesheet" 
         href="<?php echo $this->baseurl ?>/templates/system/css/system.css" 
         type="text/css"/>
