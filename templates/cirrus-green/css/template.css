@@ -647,12 +647,13 @@ body {
 }
 
 a {
-    color: #444;
+    color: #FFF;
     text-decoration: none;
+    font-weight: 700;
 }
 
 a:hover {
-    color: #000000;
+    color: #CCC;
     text-decoration: none;
 }
 
@@ -746,8 +747,8 @@ hr {
     color: rgb(226, 226, 226);
     background-color: rgb(226, 226, 226);
     height: 1px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .tip {
@@ -1475,12 +1476,27 @@ legend.hidelabeltxt {
 
 /** Tables **/
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
+    width: 100%;
 }
 
-tr, td {
+tr{
     border: solid 1px #ddd;
     vertical-align: top;
+}
+
+td {
+    border: solid 1px #ddd;
+    vertical-align: top;
+    padding: 3px 5px;
+    line-height: 1.2;
+}
+
+th {
+    border: solid 1px #ddd;
+    vertical-align: top;
+    padding: 3px 5px;
+    font-weight: 700;
 }
 
 table.weblinks,
@@ -2623,6 +2639,16 @@ body.contentpane a:hover {
     display: none !important;
 }
 
+.center {
+    text-align: center;
+}
+
+.img-article {
+    width: 600px;
+    display: table;
+    margin: auto;
+}
+
 @media screen and (max-width: 1200px) {
     #header,
     #top-content,
@@ -2722,6 +2748,10 @@ body.contentpane a:hover {
         float: left;
         padding: 0;
     }
+    td,
+    th {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -2744,5 +2774,14 @@ body.contentpane a:hover {
     .blog-pattern .reverse .img-intro,
     .blog-pattern .img-intro { 
         width: 240px;
+    }
+
+    td {
+        font-size: 10px;
+    }
+
+    th {
+        font-weight: 600;
+        font-size: 12px;
     }
 }
